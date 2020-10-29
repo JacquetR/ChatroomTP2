@@ -1,0 +1,16 @@
+a {
+    color: darkslategray;
+    width: 80%;
+    box-shadow: grey 7px 7px 10px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+img {
+    width: 25%;
+    align-self: center;
+}

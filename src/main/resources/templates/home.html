@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Home Page</title>
+		<link th:href="@{/bootstrap/css/bootstrap.min.css}"	rel="stylesheet" media="screen"/>
+		<link th:href="@{/css/main.css}" rel="stylesheet"/>
+		<script th:src="@{/jquery/jquery.min.js}"></script>  
+		<script th:src="@{/popper/popper.min.js}"></script>  
+		<script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+	</head>
+
+	<body>
+		<div class="row" style="place-content: center;">
+			<h1 class="pt-3">Bienvenue</h1>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-6" style="text-align: -webkit-center;">
+				<a class="card" href="/user">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_userAvatar.svg/1024px-OOjs_UI_icon_userAvatar.svg.png">
+					<div class="card-body">
+						<h4 class="card-title">User</h4>
+						<p class="card-text">See all the informations about the users</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6" style="text-align: -webkit-center;">
+				<a class="card" href="/chatroom">
+					<img src="https://img.icons8.com/ios/452/chat-message.png">
+					<div class="card-body">
+						<h4 class="card-title">Chatrooms</h4>
+						<p class="card-text">See all the informations about the chatrooms</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

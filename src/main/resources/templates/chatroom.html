@@ -1,2 +1,60 @@
-<a class="btn btn-outline-secondary" href="/">Retour</a>
-<h1>Chatroom</h1>
+<html>
+    <head>
+        <title>Chatroom page</title>
+        <link th:href="@{/bootstrap/css/bootstrap.min.css}"	rel="stylesheet" media="screen"/>
+        <link th:href="@{/css/secondary.css}" rel="stylesheet"/>
+		<script th:src="@{/jquery/jquery.min.js}"></script>  
+		<script th:src="@{/popper/popper.min.js}"></script>  
+		<script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+    </head>
+
+    <body>
+        <a class="btn btn-secondary p-1 m-3" href="/">
+            <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-chevron-left-512.png">
+            Retour
+        </a>
+        <div class="row" style="justify-content: center;">
+            <div class="card text-center" style="width: 20%;">
+                <div class="card-body">
+                    <h3 class="card-title">Total chatrooms</h3>
+                    <h4 class="card-text">2</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card m-5">
+                    <div class="card-body">
+                        <h3 class="card-title">Chatrooms</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Server
+                            </div>
+                            <div class="col-md-6">
+                                Chatroom
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                http://127.0.0.1:4567
+                            </div>
+                            <div class="col-md-6">
+                                chat1
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                http://127.0.0.1:4567
+                            </div>
+                            <div class="col-md-6">
+                                chat2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

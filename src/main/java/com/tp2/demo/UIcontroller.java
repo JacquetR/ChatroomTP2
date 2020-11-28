@@ -5,23 +5,20 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class tp2UIcontroller {
+public class UIcontroller {
 
 	@RequestMapping("/")
 	public ModelAndView index() {
-		ModelAndView view = new ModelAndView("home");
-		return view;
+		return new ModelAndView("home");		 
 	}
 
 	@RequestMapping("/user")
 	public ModelAndView user() {
-		ModelAndView view = new ModelAndView("user");
-		return view;
+		return new ModelAndView("user");		
 	}
 
 	@RequestMapping("/chatroom")
 	public ModelAndView chatroom() {
-		ModelAndView view = new ModelAndView("chatroom");
-		return view;
+		return new ModelAndView("chatroom");
 	}
 }
